@@ -92,3 +92,9 @@
   for = "/default-wallpaper.webp"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+
+[[redirects]]
+  from = "/ncm/*"
+  to = "https://float-ncm-2295622027.netlify.app/:splat"
+  status = 200
