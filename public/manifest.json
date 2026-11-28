@@ -1,4 +1,4 @@
-{
+{{
     "name": "float",
     "short_name": "float",
     "description": "float",
@@ -18,6 +18,12 @@
         "social",
         "productivity"
     ],
+    "network": {
+        "allowedDomains": [
+            "doremy-float-phone-sbk0.netlify.app",
+            "float-ncm-2295622027.netlify.app"
+        ]
+    },
     "icons": [
         {
             "src": "/icon-192.png",
